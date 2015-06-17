@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Solution de gestion des contacts</title>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<script>
+			$(function() {
+				$( "#tabs" ).tabs({
+					beforeLoad: function( event, ui ) {
+						ui.jqXHR.fail(function() {
+							ui.panel.html(
+							"Impossible de charger cet onglet. <br />" +
+							"L'administrateur a été alerté. Nous mettons tout en oeuvre pour résoudre ce dysfonctionnement au plus vite." );
+						});
+					}
+				});
+			});
+		</script>
+		<style>
+			#tabs ul{
+				background-color : #FF0000;
+			}
+		</style>
+	</head>
+	<content>
+		<div id="tabs" style="width:800px;margin:auto;">
+			<ul>
+				
+				<li><a href="#tabs-1">Contacts</a></li>
+				<li><a href="#tabs-2">Groupes</a></li>
+				<li><a href="ajax/content3-slow.php">Export</a></li>
+				
+			</ul>
+			<div id="tabs-1">
+				<p>tab1.</p>
+			</div>
+			<div id="tabs-2">
+				<p>tab2.</p>
+			</div>
+		</div>
+		
+	</content>
+	
+</html>
