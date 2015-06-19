@@ -1,3 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project name="C:\Web\Gestionnaire de Contacts\Gestionnaire de Contacts.clpprj">
-	<settings><PM_URL><![CDATA[http://localhost/Gestionnaire de Contacts/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/Gestionnaire de Contacts/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS></settings></project>
+<project name="C:\Web\Gestionnaire_de_Contacts\Gestionnaire de Contacts.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/Gestionnaire de Contacts/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/Gestionnaire de Contacts/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\Web\Gestionnaire_de_Contacts\tmp.php"/>
+	</lastopfiles>
+	<codestructure version="5.0">
+		<phptree>
+			<treenode node="Controller;PHP:Class Name;C:\Web\Gestionnaire_de_Contacts\Controller.php;f1;1;2;12;;;;vpos;;v;;r;;d18,1;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\Web\Gestionnaire_de_Contacts\Controller.php;f9;6;3;11;;;;vpos;;v;;r;;d38,6;;b1,0;;mroute;;p">
+					<treenode node="route;PHP:Var Name;C:\Web\Gestionnaire_de_Contacts\Controller.php;f30;6;36;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="model;PHP:Var Name;C:\Web\Gestionnaire_de_Contacts\Controller.php;f12;3;18;3;;;;vpos;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+				<treenode node="route;PHP:Var Name;C:\Web\Gestionnaire_de_Contacts\Controller.php;f12;2;18;2;;;;vpos;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+				<treenode node="view;PHP:Var Name;C:\Web\Gestionnaire_de_Contacts\Controller.php;f12;4;17;4;;;;vpos;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="loginController;PHP:Class Name;C:\Web\Gestionnaire_de_Contacts\Controller\loginController.php;f1;1;2;12;;;;vpos;;vController;;c;;r;;d42,1;;b0,0;;m">
+				<treenode node="run;PHP:Function Name;C:\Web\Gestionnaire_de_Contacts\Controller\loginController.php;f9;2;3;11;;;;vpos;;v;;r;;d24,2;;b1,0;;m">
+					<treenode node="_POST;PHP:Var Name;C:\Web\Gestionnaire_de_Contacts\Controller\loginController.php;f37;3;43;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\Web\Gestionnaire_de_Contacts\Controller\loginController.php;f3;3;10;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Web\Gestionnaire_de_Contacts\Controller\loginController.php;f13;3;18;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="viewerror;PHP:Var Name;C:\Web\Gestionnaire_de_Contacts\Controller\loginController.php;f4;8;14;8;;;;vposView;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</treenode>
+			<treenode node="loginModel;PHP:Class Name;C:\Web\Gestionnaire_de_Contacts\Model\loginModel.php;f1;1;2;10;;;;vpos;;v;;r;;d18,1;;b0,0;;m">
+				<treenode node="loginUser;PHP:Function Name;C:\Web\Gestionnaire_de_Contacts\Model\loginModel.php;f9;2;3;9;;;;vpos;;v;;r;;d42,2;;b1,0;;mlogin;;ppwd;;p">
+					<treenode node="login;PHP:Var Name;C:\Web\Gestionnaire_de_Contacts\Model\loginModel.php;f28;2;34;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pwd;PHP:Var Name;C:\Web\Gestionnaire_de_Contacts\Model\loginModel.php;f36;2;40;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</treenode>
+			<treenode node="View;PHP:Class Name;C:\Web\Gestionnaire_de_Contacts\View.php;f1;1;2;22;;;;vpos;;v;;r;;d12,1;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\Web\Gestionnaire_de_Contacts\View.php;f9;5;3;7;;;;vpos;;v;;r;;d38,5;;b1,0;;mroute;;p">
+					<treenode node="route;PHP:Var Name;C:\Web\Gestionnaire_de_Contacts\View.php;f30;5;36;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="__set;PHP:Function Name;C:\Web\Gestionnaire_de_Contacts\View.php;f9;19;3;21;;;;vpos;;v;;r;;d38,19;;b1,0;;mkey;;pvalue;;p">
+					<treenode node="key;PHP:Var Name;C:\Web\Gestionnaire_de_Contacts\View.php;f24;19;28;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Web\Gestionnaire_de_Contacts\View.php;f30;19;36;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="display;PHP:Function Name;C:\Web\Gestionnaire_de_Contacts\View.php;f9;9;3;17;;;;vpos;;v;;r;;d34,9;;b1,0;;mview;;p">
+					<treenode node="view;PHP:Var Name;C:\Web\Gestionnaire_de_Contacts\View.php;f27;9;32;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="data;PHP:Var Name;C:\Web\Gestionnaire_de_Contacts\View.php;f12;3;17;3;;;;vpos;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+				<treenode node="route;PHP:Var Name;C:\Web\Gestionnaire_de_Contacts\View.php;f12;2;18;2;;;;vpos;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="ajax;PHP:Var Name;C:\Web\Gestionnaire_de_Contacts\Codelobster0.php;f1;4;6;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</phptree>
+		<jstree>
+		</jstree>
+		<scsstree>
+		</scsstree>
+		<lesstree>
+		</lesstree>
+	</codestructure><todoblock>
+	</todoblock>
+	<filescache>
+		<file name="C:\Web\Gestionnaire_de_Contacts\View\Errors\errorLogin.php" crc="1604745361"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\Model\searchModel.php" crc="1604745361"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\Model\loginModel.php" crc="-596467847"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\Model\listUser.php" crc="1604745361"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\Model\listContact.php" crc="1604745361"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\Model\indexModel.php" crc="1604745361"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\Model\homeModel.php" crc="1604745361"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\Model\addUserModel.php" crc="1604745361"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\Model\addContactModel.php" crc="1604745361"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\Controller\searchController.php" crc="1604745361"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\Controller\loginController.php" crc="-2054690170"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\Controller\listUserController.php" crc="1604745361"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\Controller\listContactController.php" crc="1604745361"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\Controller\indexController.php" crc="-942112817"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\Controller\homeController.php" crc="1604745361"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\Controller\addUserController.php" crc="1604745361"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\Controller\addContactController.php" crc="1604745361"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\View.php" crc="-1083255240"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\tmp.php" crc="-1143171874"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\index.php" crc="1604745361"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\home.php" crc="1604745361"/>
+		<file name="C:\Web\Gestionnaire_de_Contacts\Controller.php" crc="-1642106033"/>
+	</filescache>
+</project>
